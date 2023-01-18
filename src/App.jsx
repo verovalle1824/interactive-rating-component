@@ -2,8 +2,7 @@ import logo from './assets/images/icon-star.svg';
 import ContainerStar from './components/ContainerStar';
 import Footer from './components/Footer';
 
-function App() {
-
+const App = () => {
   return (
     <>
       <main className="w-[33rem] h-auto bg-dark-blue m-auto rounded-md p-10 relative">

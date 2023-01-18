@@ -1,10 +1,10 @@
 import logoModal from '../assets/images/illustration-thank-you.svg';
 import closeModal from '../assets/images/close.png';
 
-const Modal = ({ star, isOpen, setCloseModal }) => {
+const Modal = ({ star, isClose, setCloseModal }) => {
 
   return (
-    isOpen && ( 
+    isClose && ( 
       <div className="absolute top-0 left-0 w-full h-full bg-dark-blue p-10 rounded-md ">
         <img 
           className="w-6 absolute top-5 right-5 cursor-pointer" 

@@ -9,7 +9,6 @@ const ContainerStar = () => {
   const [visibilityModal, setVisibilityModal] = useState(false);
 
   const handleClick = (e) => {
-    e.preventDefault();
     setSelectedStar(e.target.textContent);
   }
 
@@ -17,6 +16,8 @@ const ContainerStar = () => {
     e.preventDefault();
     setVisibilityModal(!visibilityModal);
   }
+  
+  console.log(selectedStar);
 
   return (
     <>
@@ -36,11 +37,11 @@ const ContainerStar = () => {
         visibilityModal={ handleSubmit }
       />
       {
-        visibilityModal && 
+        visibilityModal &&
           <Modal 
             star={ selectedStar } 
-            isOpen={ visibilityModal } 
-            setCloseModal={ handleSubmit } 
+            isClose={ visibilityModal }
+            setCloseModal={ handleSubmit }
           />
       }
     </>

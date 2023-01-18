@@ -10,19 +10,3 @@ html {
 span, a, button {
   cursor: pointer;
 }
-
-.modal {
-  width: 100%;
-  height: 100%;
-  background-color: hsl(213 19% 18%);
-  padding: 3rem;
-  border-radius: 2rem;
-  
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.modal img {
-  width: 60%;
-}
