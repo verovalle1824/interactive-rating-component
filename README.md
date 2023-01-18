@@ -1,5 +1,5 @@
 # Interactive Rating Component - Frontend Mentor Challenge
-                                                        ⭐⭐⭐⭐⭐
+                                                       ⭐⭐⭐⭐⭐
 
 **Modo Desktop** 💻
 
