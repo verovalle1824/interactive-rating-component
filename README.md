@@ -30,8 +30,7 @@ Para instalar y utilizar este proyecto, sigue los siguientes pasos:
 - @vitejs/plugin-react, autoprefixer, postcss y sass (dependencias de desarrollo)
 4. Ejecute el comando "npm run dev" para iniciar el servidor de desarrollo.
 5. Abra su navegador web y vaya a la dirección "http://localhost:3000" para ver el proyecto corriendo y puede interactuar con el componente.
-6. Para utilizar el componente en su proyecto, puede importarlo en un archivo JavaScript o TypeScript utilizando el siguiente código: import InteractiveRatingComponent from 'interactive-rating-component', y luego puede utilizarlo como un componente de React: <InteractiveRatingComponent />
-7. Para utilizarlo en producción, ejecute el comando "npm run build" para generar una versión de producción del proyecto y utilizar los archivos generados en su aplicación.
+6. Para utilizarlo en producción, ejecute el comando "npm run build" para generar una versión de producción del proyecto y utilizar los archivos generados en su aplicación.
 
 ## Es importante mencionar que el proyecto utiliza vite como servidor de desarrollo, que es una herramienta que permite una configuración más sencilla y un desarrollo más rápido.enviar la calificación seleccionada.
 
